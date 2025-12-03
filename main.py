@@ -15,7 +15,7 @@ def main():
                 st.session_state.page = "home"
             if st.button("🎯 Main Rekomendasi"):
                 st.session_state.page = "main_rekomendasi"
-            if st.button("♾️ Dataset Wisata di Indonesia"):
+            if st.button("♾️ Dataset Wisata di Yogyakarta"):
                 st.session_state.page = "dataset"
 
             st.markdown("---")
